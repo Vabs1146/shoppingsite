@@ -26,14 +26,15 @@
 
 .toolbar img {
   margin: 0 16px;
+  width: 50px;
 }
 
-.toolbar #twitter-logo {
+.toolbar #menu-btn {
   height: 40px;
   margin: 0 16px;
 }
 
-.toolbar #twitter-logo:hover {
+.toolbar #menu-btn:hover {
   opacity: 0.8;
 }
 
@@ -43,6 +44,8 @@
   align-items: center;
 }
 
-@media screen and (max-width: 767px) {}
+@media screen and (max-width: 360px) {}
 
-@media screen and (max-width: 575px) {}
+@media (min-width: 361px) and (max-width: 768px) {}
+
+@media screen and (min-width:769px) {}
